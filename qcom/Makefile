@@ -484,4 +484,5 @@ dtb-y += $(sdmsteppeauto-dtb-y)
 
 always-y        := $(dtb-y)
 subdir-y        := $(dts-dirs)
+subdir-y        += audio bt camera data display dsp graphics mm nfc video wlan
 clean-files     := *.dtb *.dtbo
