@@ -24,7 +24,8 @@ dtbo-y += pineapple-audio.dtbo \
                  pineapple-audio-atp.dtbo \
                  pineapple-audio-rumi.dtbo \
                  pineapple-audio-rcm.dtbo \
-                 pineapple-audio-qrd-sku2.dtbo
+                 pineapple-audio-qrd-sku2.dtbo \
+                 pineapplep-audio-hdk.dtbo
 endif
 
 
@@ -38,6 +39,10 @@ endif
 
 ifeq ($(CONFIG_QTI_QUIN_GVM), y)
 dtbo-y +=  direwolf-vm-la-audio.dtbo
+dtbo-y +=  lemans-vm-lv-audio.dtbo
+dtbo-y +=  lemans-vm-la-audio.dtbo
+dtbo-y +=  sa8155-vm-audio.dtbo
+dtbo-y +=  sa8195-vm-audio.dtbo
 endif
 
 ifeq ($(CONFIG_ARCH_KHAJE), y)
@@ -50,7 +55,8 @@ ifeq ($(CONFIG_ARCH_BLAIR), y)
 dtbo-y += blair-audio.dtbo \
 		blair-audio-mtp.dtbo \
 		blair-audio-mtp-usbc.dtbo \
-		blair-audio-qrd.dtbo
+		blair-audio-qrd.dtbo \
+		blair-audio-cdp.dtbo
 endif
 
  always-y    := $(dtb-y) $(dtbo-y)
