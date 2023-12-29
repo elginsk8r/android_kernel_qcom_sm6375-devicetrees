@@ -26,6 +26,7 @@ dtbo-y += pineapple-audio.dtbo \
                  pineapple-audio-rcm.dtbo \
                  pineapple-audio-qrd-sku2.dtbo \
                  pineapplep-audio-hdk.dtbo \
+                 pineapplep-audio-aim500.dtbo \
                  cliffs-audio.dtbo \
                  cliffs-audio-mtp.dtbo \
                  cliffs7-audio-mtp.dtbo \
@@ -34,6 +35,8 @@ dtbo-y += pineapple-audio.dtbo \
                  cliffs-audio-cdp.dtbo \
                  cliffs7-audio-cdp.dtbo \
                  cliffs-audio-rcm.dtbo \
+                 cliffs7-audio-rcm.dtbo \
+                 cliffs-audio-mtp-wcd9395.dtbo \
                  cliffs7-audio-mtp-wcd9395.dtbo \
                  cliffs-audio-atp.dtbo \
                  cliffs7-audio-atp.dtbo
