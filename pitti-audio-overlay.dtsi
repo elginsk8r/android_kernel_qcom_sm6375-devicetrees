@@ -253,9 +253,9 @@
 		compatible = "qcom,msm-cdc-pinctrl";
 		pinctrl-names = "aud_active", "aud_sleep";
 		pinctrl-0 = <&tx_swr_clk_active &tx_swr_data0_active
-			    &tx_swr_data1_active &tx_swr_data2_active>;
+			    &tx_swr_data1_active>;
 		pinctrl-1 = <&tx_swr_clk_sleep &tx_swr_data0_sleep
-			    &tx_swr_data1_sleep &tx_swr_data2_sleep>;
+			    &tx_swr_data1_sleep>;
 		qcom,lpi-gpios;
 		qcom,tlmm-pins = <96>;
 		qcom,chip-wakeup-reg = <0x003ca04c>;
