@@ -182,7 +182,7 @@
 		qcom,model = "pitti-idp-snd-card";
 		qcom,msm-mi2s-master = <1>, <1>, <1>, <1>;
 		qcom,mi2s-tdm-is-hw-vote-needed = <1>, <1>, <1>, <1>;
-		qcom,wcn-btfm = <0>;
+		qcom,wcn-btfm = <1>;
 		qcom,ext-disp-audio-rx = <0>;
 		qcom,tdm-max-slots = <4>;
 		qcom,tdm-clk-attribute = <0x1>, <0x1>, <0x1>, <0x1>;
@@ -258,9 +258,9 @@
 			    &tx_swr_data1_sleep>;
 		qcom,lpi-gpios;
 		qcom,tlmm-pins = <96>;
-		qcom,chip-wakeup-reg = <0x003ca04c>;
-		qcom,chip-wakeup-maskbit = <0>;
-		qcom,chip-wakeup-default-val = <0x1>;
+		qcom,chip-wakeup-reg = <0x560008>, <0x596000>, <0x596000>;
+		qcom,chip-wakeup-maskbit = <8>, <5>, <6>;
+		qcom,chip-wakeup-default-val = <0x1>, <0x1>, <0x1>;
 		#gpio-cells = <0>;
 	};
 
